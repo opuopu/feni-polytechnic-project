@@ -1,0 +1,67 @@
+.index-main{
+    background-color:#2242D8;
+}
+.navlink{
+   border: 2px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 200px;
+    transition: 0.5;
+
+}
+.navlink:hover{
+    background-color: #04D498;
+border:2px solid #04D498;
+color: white;
+}
+.search-btn{
+  
+}
+.poly5{
+color: red;
+font-weight: bolder;
+font-size: x-large;
+
+    
+}
+.poly4{
+    color: #fbff04;
+    font-weight: 600;
+}
+.p-title{
+    color:#2242D8;
+
+    font-weight: 800;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid  #2242D8; ;
+    margin-left: 500px;
+    margin-right: 500px;
+ 
+}
+.p-desc{
+color: gray;
+font-weight: 500;
+border: 5px solid  #2242D8;
+padding: 30px;
+line-height: 200%;
+}
+.name{
+    color:   #2242D8;
+    border-bottom: 2px solid  #2242D8;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 5px;
+}
+.p-desc:hover{
+background-color: #04D498;
+border:5px solid black;
+color: white;
+
+
+}

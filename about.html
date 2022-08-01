@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+  ">
+    <title>Document</title>
+</head>
+<body>
+   <div class="index-main">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+        <img height="50" width="50" src="./download-removebg-preview.png" alt="">
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item nav-items">
+                <a class="active navlink text-white fw-bold" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class=" active navlink" aria-current="page" href="./about.html">About</a>
+               
+              </li>
+              <li class="nav-item">
+                <a class="active navlink" aria-current="page" href="#">Department</a>
+               
+              </li>
+              <li class="nav-item">
+                <a class="active navlink" aria-current="page" href="#">contact us</a>
+               
+              </li>
+      
+          
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn search-btn bg-success text-white fw-bold" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+
+      <!-- about section -->
+
+      
+
+   </div>
+  <h1 class="p-title">About us</h1>
+   <div class="about d-flex  align-items-center justify-content-around ">
+    <div class="part-1 w-50 abouts">
+      <p class="descs">
+   <span id="dots">
+    In 29th February 1964, Feni Polytechnic started its journey as Feni Technical with Civil and Mechanical Engineering departments in a 15.97 Acre campus near old Dhaka-Chittagong Highway road, just 500 meters east to Feni Sadar Hospital. In 1972 with the addition of Power department, the institution finally became Feni Polytechnic Institute. Later additional departments as Electrical engineering (1978), Computer engineering (2002), Architecture & Interior design technology (2006) was added to give the institution its present form.
+
+    From its very first day, Feni polytechnic has been under supervision of excellent administration lead by many highlighted individuals from Technical Education field. Currently the institution is run by 60 teachers lead by the Principal, 50 third grade and 26 fourth grade government staffs. Today, Feni Polytechnic Institute operates an additional second shift to its usual operation for its 6 departments and the institution is hence filled with students all through the operating period and comes to life from morning till evening.
+   </span>
+      
+     <span id="more">
+      Today Feni Polytechnic has a magnificent campus consisting of a two floor administrative building, 1 three floor academic building, 3 campus accommodations for its students, auditorium, mosque and accommodations for its Principal and staffs. The pond, field, canteen and the various trees all around the campus simply is a treat for our eyes.
+      
+      Feni Polytechnic Institute is highly regulated and monitored by the Directorate of Technical Education(DTE) under Ministry of Education(MoE) for the Governments of the people\'s republic of Bangladesh. The academic section is supervised by the Bangladesh Technical Education Board (BTEB).
+      Today Feni Polytechnic has a magnificent campus consisting of a two floor administrative building, 1 three floor academic building, 3 campus accommodations for its students, auditorium, mosque and accommodations for its Principal and staffs. The pond, field, canteen and the various trees all around the campus simply is a treat for our eyes.
+      
+      Feni Polytechnic Institute is 
+      Today Feni Polytechnic has a magnificent campus consisting of a two floor administrative building, 1 three floor academic building, 3 campus accommodations for its students, auditorium, mosque and accommodations for its Principal and staffs. The pond, field, canteen and the various trees all around the campus simply is a treat for our eyes.
+      
+      Feni Polytechnic Institute is highly regulated and monitored by the Directorate of Technical Education(DTE) under Ministry of Education(MoE) for the Governments of the people\'s republic of Bangladesh. The academic section is supervised by the Bangladesh Technical Education Board (BTEB).
+      Today Feni Polytechnic has a magnificent campus consisting of a two floor administrative building, 1 three floor academic building, 3 campus accommodations for its students, auditorium, mosque and accommodations for its Principal and staffs. The pond, field, canteen and the various trees all around the campus simply is a treat for our eyes.
+      
+      Feni Polytechnic Institute is highly regulated and monitored by the Directorate of Techhighly regulated and monitored by the Directorate of Technical Education(DTE) under Ministry of Education(MoE) for the Governments of the people\'s republic of Bangladesh. The academic section is supervised by the Bangladesh Technical Education Board (BTEB).
+     </span>
+    </p>
+    <button onclick="myfunction()" id="mybtn">read more</button>
+
+    </div>
+    <div class="part-2">
+      <h4 class="text-center py-2 v-title bold" >videography</h4>
+      <div width="" class="video">
+       
+        <video width="600" height="240" controls>
+          <source src="./image-galary/294993861_729640798323491_140059382594642119_n.mp4" type="video/mp4">
+      
+         
+        </video>
+      </div>
+    </div>
+  </div>
+      <!-- carousel -->
+ 
+    </div>
+
+    <footer>
+        <img width="100%" src="./footer_top_bg.png" alt="">
+        <h5 class="text-center p-3 text-gray">Copyright © 2021 Feni Polytechnic Institute All Right Reserved.</h5>
+        <p class="text-center">Developed by  <span class="text-primary">Nur Mohammod opu</span>
+      </footer>
+   
+    <script >
+function myfunction(){
+
+let dots = document.getElementById("dots")
+console.log(dots)
+let more = document.getElementById("more")
+let btn = document.getElementById("mybtn")
+if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btn.innerHTML = "Read more";
+    more.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btn.innerHTML = "Read less";
+    more.style.display = "inline";
+  }
+}
+
+
+    </script>
+</body>
+</html>
