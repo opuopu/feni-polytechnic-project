@@ -107,7 +107,7 @@ color: white;
     margin-bottom: 10px;
 }
 
-#more{
+#more ,#more1 ,#more2, #more3 ,#more4 ,#more5{
     display: none;
 }
 .descs{
@@ -116,11 +116,88 @@ color: white;
     text-align: center;
     line-height: 200%;
 }
-#mybtn{
+#mybtn ,#mybtn1 ,#mybtn2, #mybtn3,#mybtn4,#mybtn5 {
     border: none;
     background-color:#04D498;
     color: white;
     font-weight: bold;
-    padding: 10px;
+    padding: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 30px;
+
+}
+#mybtn:hover ,#mybtn1:hover ,#mybtn2:hover, #mybtn3:hover,#mybtn4:hover,#mybtn5:hover{
+    background-color: #2242D8;
+}
+
+.p{
+    margin: 0 400px 0 400px
+}
+
+
+
+.imgs{
+    border-radius: 10px;
+ width: 600px;
+ transition: .3s;
+}
+.imgs:hover{
+    transform: scale(1.2);
+}
+.ps{
+    color: #04D498;
+    border-bottom: 5px solid #04D498;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 5px;
+}
+
+.ps1{
+    color: #04D498;
+    border-bottom: 5px solid #04D498;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-bottom: 5px
+}
+
+.logo{
+
+
+}
+.logos{
+    background-color: #04D498;
+    padding: 15px;
+    border-radius: 50%;
+}
+.textss{
+    color:#04D498;
+}
+
+label{
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+
+    padding-bottom: 5px;
+}
+input{
+    padding: 40px;
+}
+
+
+.btns{
+    color:black;
+    background-color:#04D498;
+    color: white;
+    border: none;
+    padding: 14px 18px;
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    font-weight: 600;
+  border-radius: 5px;
 
 }
